@@ -3,7 +3,7 @@
 import java.util.Scanner;
 
 public class CompareSubstrings {
-	// createSubstring() method to compare the strings
+	// createSubstring() method to create substring from string using starting and ending index
 	public static String createSubstring(String string, int startIndex, int endIndex) {
 		// Create substring from string
 		String subString = "";
@@ -13,6 +13,7 @@ public class CompareSubstrings {
         	return subString;
 	}
 
+	// compareStrings() method to compare the strings
 	public static boolean compareStrings(String subString1, String subString2) {
 		if (subString1.length() != subString2.length()) {
             		return false;
