@@ -10,10 +10,10 @@ public class CompareSplitString {
         	System.out.print("Enter a string: ");
         	String string = sc.nextLine();
 
-        	// Split using user-defined method
+        	// Call splitString() method to split the string
         	String[] array1 = splitString(string);
 
-        	// Split using built-in split() method
+        	// Split the string using built-in split() method
         	String[] array2 = string.split(" ");
 
 	        System.out.println("Result using splitString() method: " + Arrays.toString(array1));
